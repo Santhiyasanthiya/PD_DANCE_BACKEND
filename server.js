@@ -70,13 +70,13 @@ const clientMail = {
     <div style="
       font-family: 'Poppins', 'Segoe UI', sans-serif;
       background: linear-gradient(135deg, #fff8f8, #ffe6f0);
-      border: 2px solid #ff5ca1;
+      border: 2px solid #0e5200ff;
       border-radius: 12px;
       padding: 25px;
       color: #333;
       max-width: 600px;
       margin: 20px auto;
-      box-shadow: 0 4px 10px rgba(255, 92, 161, 0.3);
+      box-shadow: 0 4px 10px rgba(130, 255, 92, 0.3);
     ">
       <!-- Header -->
       <div style="text-align: center; margin-bottom: 15px;">
@@ -85,27 +85,19 @@ const clientMail = {
           alt="Pd Dance Academy Logo"
           style="width: 120px; height: auto; margin-bottom: 10px;"
         />
-        <h1 style="color: #ff3b89; margin: 0;">Pd Dance Academy</h1>
+        <h1 style="color: #074e01ff; margin: 0;">Pd Dance Academy</h1>
         <p style="color: #555; font-size: 14px;">Feel the rhythm. Express your soul.</p>
       </div>
 
       <!-- Body -->
       <div style="background: #fff; border-radius: 10px; padding: 20px;">
-        <h2 style="color: #ff3b89;">Hello ${studentName},</h2>
+        <h2 style="color: #116101ff;">Hello ${studentName},</h2>
         <p style="font-size: 16px; line-height: 1.6;">
           Thank you for contacting <b>Pd Dance Academy</b>! 💃  
           We’ve received your details and our team will get in touch with you soon.
         </p>
 
-        <h3 style="color: #ff3b89; margin-top: 20px;">Your Submitted Details</h3>
-        <ul style="list-style: none; padding: 0; line-height: 1.8;">
-          <li><b>Name:</b> ${studentName}</li>
-          <li><b>Email:</b> ${email}</li>
-          <li><b>Phone:</b> ${phone}</li>
-          <li><b>Location:</b> ${location}</li>
-          <li><b>Purpose:</b> ${purpose}</li>
-          <li><b>Subject:</b> ${subject}</li>
-        </ul>
+      
 
         <p style="font-size: 15px; color: #444;">
           🎉 Stay tuned for updates about our latest dance programs and events!
@@ -114,10 +106,10 @@ const clientMail = {
 
       <!-- Footer -->
       <div style="text-align: center; margin-top: 25px; font-size: 13px; color: #777;">
-        <hr style="border: none; border-top: 1px solid #ffb3cd; margin: 15px 0;">
+        <hr style="border: none; border-top: 1px solid #013d04ff; margin: 15px 0;">
         <p>
-          © ${new Date().getFullYear()} Pd Dance Academy<br/>
-          Chennai, India | <a href="mailto:pddanceacademy@gmail.com" style="color: #ff3b89; text-decoration: none;">pddanceacademy@gmail.com</a>
+          © 2020 Pd Dance Academy<br/>
+          Chennai, India | <a href="mailto:pddanceacademy@gmail.com" style="color: #1b5500ff; text-decoration: none;">pddanceacademy@gmail.com</a>
         </p>
       </div>
     </div>
